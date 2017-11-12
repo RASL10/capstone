@@ -136,9 +136,13 @@ p {
   flex-direction: column;
 }
 
-.article img {
+.image-container {
   width: 35%;
+  height: 90%;
   margin: 12px;
+}
+
+.image-container img {
+  width: 100%;
   height: auto;
-  object-fit: contain;
 }
