@@ -129,11 +129,11 @@ p {
 }
 
 .article {
-  justify-content: center;
+  display: flex;
 }
 
 .article div {
-  display: flex;
+  flex-direction: column;
 }
 
 .article img {
