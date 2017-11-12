@@ -6,6 +6,7 @@
 
 body {
   width: 100%;
+  margin: 0;
 }
 
 header {
@@ -63,7 +64,7 @@ a, a:link, a:visited {
 
 .banner img {
   display: flex;
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 32px 0px 32px 24px;
 }
