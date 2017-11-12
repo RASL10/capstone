@@ -47,6 +47,7 @@ a, a:link, a:visited {
   display: flex;
   background-color: #d8d8d8;
   position: relative;
+  top: 80px
 }
 
 .banner img {
