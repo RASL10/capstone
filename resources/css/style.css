@@ -20,6 +20,7 @@ img{
 header .content {
   display: flex;
   align-items: center;
+
 }
 
 header nav ul {
@@ -31,4 +32,8 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+}
+
+nav li {
+    padding-left: 3.5rem
 }
