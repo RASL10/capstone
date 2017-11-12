@@ -104,3 +104,41 @@ h2 {
 p {
   color: white;
 }
+
+.secondary-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-column img {
+  width: 90%;
+}
+
+.first-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.second-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.article {
+  flex-direction: row;
+  justify-content: center
+}
+
+.article div {
+  flex-direction: column;
+}
+
+.article img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
