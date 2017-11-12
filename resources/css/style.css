@@ -33,3 +33,33 @@ header li {
    margin-left: 24px;
    margin-right: 5px;
 }
+
+.btn, .btn:link, .btn:visited {
+color: black;
+font-size: 14px;
+}
+
+a, a:link, a:visited {
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  background-color: grey;
+  position: relative;
+}
+
+.banner img {
+  display: flex;
+  width: 60%;
+  height: auto;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action {
+  background-color: darkgrey;
+}
