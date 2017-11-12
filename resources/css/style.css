@@ -128,13 +128,17 @@ p {
   width: 40%;
 }
 
+.article {
+  display: flex;
+}
+
 .article div {
   flex-direction: column;
 }
 
 .article img {
   width: 35%;
+  margin: 12px;
   height: auto;
-  margin: 16px;
   object-fit: contain;
 }
