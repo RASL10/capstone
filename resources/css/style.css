@@ -86,11 +86,11 @@ a, a:link, a:visited {
   background-color: #4a4a4a;
   display: center;
   color: white;
-  transition: color 500ms linear 0s;
+  transition: background-color 500ms linear 0s;
 }
 
 .call-to-action:hover {
-  color: pink;
+  background-color: pink;
 }
 
 h1 {
