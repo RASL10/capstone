@@ -107,7 +107,8 @@ p {
 
 .secondary-content {
   display: flex;
-  flex-direction: row;
+  margin-top: 64px;
+  padding-top: 32px;
 }
 
 .first-column img {
@@ -116,7 +117,6 @@ p {
 
 .first-column {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 60%;
 }
@@ -129,8 +129,11 @@ p {
 }
 
 .article {
-  display: flex;
   justify-content: center;
+}
+
+.article div {
+  display: flex;
 }
 
 .article img {
@@ -138,4 +141,5 @@ p {
   width: 35%;
   height: auto;
   margin: 16px;
+  object-fit: contain;
 }
