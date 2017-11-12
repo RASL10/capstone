@@ -1,0 +1,19 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  color: black;
+  height: 64px;
+}
+
+.capstone-logo {
+  height: 32px;
+  margin-left: 24px;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: rem;
+}
