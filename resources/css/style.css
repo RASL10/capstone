@@ -123,11 +123,9 @@ p {
 
 .second-column {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 40%;
-}
-.article {
-  flex-direction: column;
 }
 
 .article div {
@@ -135,7 +133,6 @@ p {
 }
 
 .article img {
-  display: flex;
   width: 35%;
   height: auto;
   margin: 16px;
