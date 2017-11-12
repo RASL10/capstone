@@ -45,21 +45,29 @@ a, a:link, a:visited {
 
 .main-content {
   display: flex;
-  background-color: grey;
+  background-color: #d8d8d8;
   position: relative;
 }
 
 .banner img {
   display: flex;
-  width: 60%;
+  width: 100%;
   height: auto;
+  margin: 32px 0px 32px 24px;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
+  color: black;
+  padding: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .call-to-action {
-  background-color: darkgrey;
+  background-color: #4a4a4a;
+  display: center;
+  margin-top: 8px;
+  margin-bottom:8px;
 }
