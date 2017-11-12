@@ -129,15 +129,12 @@ p {
 }
 
 .article {
-  flex-direction: row;
-  justify-content: center
-}
-
-.article div {
-  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 .article img {
+  display: block;
   width: 35%;
   height: auto;
   margin: 16px;
