@@ -228,15 +228,18 @@ a, a:link, a:visited {
   width: 40%;
   margin-left: 0px;
   margin-top: 0px;
+  padding-bottom: 32px;
 }
 .border {
   border-style: solid;
-  border-width: 1px 0px 1px 1px;
+  border-width: 1px 0px 0px 1px;
+  border-color: #D2D2D2;
 }
 
 .border-top {
   border-style: solid;
   border-width: 1px 0px 0px 0px;
+  border-color: #D2D2D2;
 }
 
 @media only screen and (max-width: 820px) {
@@ -359,8 +362,9 @@ a, a:link, a:visited {
 
 .title {
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 16px;
+  padding-top: 32px;
+  margin-top: 0px;
 }
 
 .flex-container {
@@ -368,6 +372,7 @@ a, a:link, a:visited {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 
 @media only screen and (max-width: 820px) {
       .flex-container{
@@ -398,7 +403,7 @@ a, a:link, a:visited {
       .item {
     background-color: white;
     width: 300px;
-    margin: 38px;
+    margin: 16px;
     }
 }
 
