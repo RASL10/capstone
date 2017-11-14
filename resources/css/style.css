@@ -12,6 +12,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -20,22 +21,28 @@ header {
 }
 
 nav {
-  padding: 40px;
+  padding: 20px;
 }
 header li {
   display: inline-flex;
-  margin: 20px;
+  margin: 10px;
 }
 
 @media only screen and (min-width: 760px) {
     .mobile {
     display: none;
+    padding: 0px;
   }
 }
 
 @media only screen and (max-width: 760px) {
       .desktop {
       display: none;
+    }
+}
+@media only screen and (max-width: 760px) {
+      ul {
+        padding-left: 0px;
     }
 }
 
