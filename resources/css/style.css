@@ -51,7 +51,7 @@ h2 {
     }
 }
 
-p {
+p .call-to-action{
   color: white;
 }
 
@@ -191,6 +191,11 @@ a, a:link, a:visited {
 .secondary-content h2 {
   font-size: 1rem;
 }
+
+.secondary-content p {
+  font-size: 0.75rem;
+}
+
 .secondary-content a {
   color: #98bee9;
   text-decoration: none;
@@ -277,6 +282,7 @@ a, a:link, a:visited {
 
 }
 
+
 @media only screen and (max-width: 820px) {
       .image-container {
       width: 100%;
@@ -302,10 +308,7 @@ a, a:link, a:visited {
   margin-right: 12px;
 
 }
-.mobile-writing {
-  padding-left: 12px
-  width: 100%;
-}
+
 @media only screen and (min-width: 820px) {
       .image-container-mobile img {
     display: none;
@@ -458,12 +461,15 @@ a, a:link, a:visited {
 .third-content h2 {
   font-size: 1rem;
 }
-.insight-column .article .image-container img{
+
+.insight-column .image-container img{
   margin-top: 0px;
 }
 
-.insight-column .article {
+
+.insight-column {
   margin-bottom: 12px;
+  display: flex;
 }
 
 .video-column {
@@ -477,6 +483,19 @@ a, a:link, a:visited {
 
 .video-column video {
   width: 100%;
+  margin-bottom: 12px;
+}
+
+.info {
+  width: 65%;
+}
+
+.fisma{
+  padding-top: 12px;
+}
+
+.now {
+  margin-top: 12px;
 }
 
 @media only screen and (max-width: 820px) {
@@ -498,6 +517,7 @@ a, a:link, a:visited {
       width:100%;
     }
 }
+
 
 footer {
   border-top-color:grey;
