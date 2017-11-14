@@ -27,6 +27,25 @@ header li {
   margin: 20px;
 }
 
+@media only screen and (min-width: 760px) {
+    .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+      .desktop {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      header .logo {
+      display: none;
+    }
+}
+
+
 .logo {
   display: flex;
   align-items: center;
@@ -80,6 +99,35 @@ a, a:link, a:visited {
   margin-right: 60px;
 }
 
+@media only screen and (max-width: 760px) {
+      .main-content {
+      flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .banner img {
+      margin: 0px;
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .headline {
+      align-items: center;
+      padding-right: 0px;
+      margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .call-to-action {
+      width: 70%;
+      margin-bottom: 32px;
+    }
+}
+
+
 .call-to-action {
   display: flex;
   justify-content: center;
@@ -123,6 +171,12 @@ p {
   margin-right: 24px;
 }
 
+@media only screen and (max-width: 760px) {
+      .first-column {
+      display: none;
+    }
+}
+
 .second-column {
   display: flex;
   flex-direction: column;
@@ -131,8 +185,20 @@ p {
   margin-top: 0px;
 }
 
+@media only screen and (max-width: 760px) {
+      .second-column {
+      width:100%;
+    }
+}
+
 .article {
   display: flex;
+}
+
+@media only screen and (max-width: 760px) {
+      .article {
+      flex-direction: column;
+    }
 }
 
 .article div {
@@ -147,8 +213,163 @@ p {
 
 }
 
+@media only screen and (max-width: 760px) {
+      .image-container {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .article div {
+      display: flex;
+      width: 100%;
+    }
+}
+
 .image-container img {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+@media only screen and (min-width: 760px) {
+      .image-container-mobile img {
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .image-container img {
+    display: none;
+    }
+}
+
+.image-container-mobile img {
+  margin: 12px;
+}
+
+
+
+
+#learn {
+  background-color: white;
+  height: auto;
+}
+
+@media only screen and (min-width: 760px) {
+      #learn {
+    background-color: #d8d8d8;
+    }
+}
+
+
+.title {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-top: 32px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 760px) {
+      .flex-container{
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .item img {
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .item h2 {
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+      .item {
+    background-color: white;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+      .item {
+    background-color: #d8d8d8;
+    width: 70%;
+    }
+}
+
+.item {
+  max-width: 300px;
+  margin: 6px;
+}
+
+@media only screen and (min-width: 760px) {
+      .item {
+    margin: 32px;
+    }
+}
+
+.item  img {
+  width: 100%;
+}
+
+.first-column video {
+  width: 100%;
+}
+
+footer {
+  border-top-color:grey;
+  border-top-width: thin;
+  border-top-style: dotted;
+}
+
+.content {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content li {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+      video {
+    width: auto;
+    }
+}
+
+.third-content {
+  display: flex;
+  margin-top: 64px;
+  padding-top: 32px;
+}
+
+@media only screen and (max-width: 760px) {
+      .third-content {
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+      .mobile-video {
+    display: none;
+    }
+}
+
+.mobile-video {
+  max-width: 100%;
 }
